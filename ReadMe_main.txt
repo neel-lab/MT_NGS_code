@@ -1,0 +1,3 @@
+There are two types of code in this folder.
+i. Matlab program, with amplicon.m being the main fuction. The primary output from this function is 'Percent', which is a measure of indel frequency based in amplicon length and edits in the sgRNA sequence. To run this program, place a breakpoint at the end of the code, edit the input .csv file (sample provided) and specify the folder with .fastq files.
+ii. Awk scripts used to parse for indels in the exome sequencing study.
